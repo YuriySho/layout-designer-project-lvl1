@@ -132,6 +132,38 @@ h3 {
   color: var(--white);
 }
 
+.color-main-dark {
+  color: var(--main-dark);
+}
+
+.color-brown {
+  color: var(--brown);
+}
+
+.premature-effect-text {
+  color: var(--white);
+}
+
+.semitransparent-white {
+  color: var(--semitransparent-white);
+}
+
+.semitransparent-dark {
+  color: var(--semitransparent-dark);
+}
+
+.background-brown {
+  background: var(--brown);
+}
+
+.background-light {
+  background: var(--light);
+}
+
+.background-white {
+  background: var(--white);
+}
+
 .button {
   width: 148px;
   height: 49px;
@@ -168,7 +200,7 @@ h3 {
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
-.background {
+.background-main-dark {
   background-color: var(--main-dark);
 }
 
@@ -177,8 +209,9 @@ h3 {
 
   display: flex;
   flex-wrap: wrap;
-
   align-content: center;
+
+  margin-bottom: 0;
 }
 
 .card {
@@ -231,7 +264,7 @@ h3 {
   margin: 0;
 }
 
-.img-ikea {
+.img-effect {
   position: relative;
   z-index: 1;
 
@@ -240,31 +273,27 @@ h3 {
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
-.title-ikea {
+.title-effect {
   position: relative;
 
   display: flex;
 }
 
-.text-ikea {
+.text-effect {
   position: relative;
   left: 30px;
 
   z-index: 1;
 }
 
-.text-ikea p:first-child {
+.text-effect p:first-child {
   margin: 0;
-
-  color: var(--semitransparent-dark);
 
   font-size: 24px;
   font-family: 'Neucha', sans-serif;
 }
 
-.text-ikea p:last-child {
-  color: var(--main-dark);
-
+.text-effect p:last-child {
   font-size: 34px;
   font-family: 'Neucha', sans-serif;
 
@@ -279,23 +308,19 @@ h3 {
   margin-bottom: 20px;
 
   vertical-align: middle;
-
-  background: var(--brown);
 }
 
-.second-title-ikea {
+.second-title-effect {
   position: relative;
   top: 5px;
   left: 10px;
-
-  color: var(--white);
 
   font-weight: bold;
   font-size: 14px;
   font-family: 'Open Sans Regular', sans-serif;
 }
 
-.second-text-ikea {
+.second-text-effect {
   position: relative;
 
   display: flex;
