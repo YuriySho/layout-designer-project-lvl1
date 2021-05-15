@@ -22,6 +22,8 @@
 }
 
 body {
+  margin: 0;
+  padding: 0;
   color: var(--dark);
   font-size: 16px;
   font-family: 'Open Sans Regular', sans-serif;
@@ -330,4 +332,94 @@ h3 {
   display: flex;
 
   vertical-align: top;
+}
+
+.footer-text {
+  position: relative;
+
+  display: flex;
+
+  color: var(--white);
+}
+
+.footer-input-group p:first-child {
+  margin-top: 38px;
+  margin-bottom: 9px;
+}
+
+.footer-input-group p:last-child {
+  position: relative;
+  top: -25%;
+
+  font-size: 12px;
+}
+
+.footer-text div:first-child p {
+  margin: 55px 55px 35px 55px;
+
+  font-size: 34px;
+  font-family: 'Neucha', sans-serif;
+
+  line-height: 40.8px;
+}
+
+.footer-input-group {
+  margin: 0 55px 0 55px;
+
+  font-size: 18px;
+}
+
+.footer-input-group p:last-child a {
+  color: var(--white);
+}
+
+.footer-input {
+  box-sizing: border-box;
+
+  width: 99%;
+  height: 50px;
+
+  padding: 15px 15px 15px 15px;
+
+  border: none;
+}
+
+.send-button {
+  position: relative;
+  top: -25.5%;
+  right: -85%;
+
+  z-index: 1;
+
+  width: 70px;
+  height: 50px;
+
+  border: none;
+
+  background: var(--main);
+
+  cursor: pointer;
+}
+
+.send-button:hover {
+  background: #ea7600;
+}
+
+.send-button::before {
+  content: url(/src/assets/images/send.svg);
+}
+
+.section-footer {
+  width: 100%;
+  max-width: 1110px;
+  height: auto;
+  margin: 100px auto 100px auto;
+}
+
+.contact-info {
+  margin-top: 60px;
+  margin-bottom: 111px;
+
+  font-size: 14px;
+  text-align: center;
 }
