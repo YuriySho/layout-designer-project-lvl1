@@ -111,12 +111,6 @@ h3 {
   background-color: var(--main-dark);
 }
 
-.main {
-  align-items: center;
-  justify-content: center;
-  width: 100%;
-}
-
 .section {
   position: relative;
 
@@ -204,7 +198,9 @@ h3 {
   text-align: center;
 }
 
-.mb-200 {
+.video-section {
+  z-index: 2;
+
   margin-bottom: -200px;
 }
 
