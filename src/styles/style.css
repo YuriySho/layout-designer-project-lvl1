@@ -215,11 +215,6 @@ h3 {
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
-.position {
-  position: relative;
-  top: -5px;
-}
-
 .section-card {
   position: relative;
 
