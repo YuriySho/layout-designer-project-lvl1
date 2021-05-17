@@ -220,6 +220,11 @@ h3 {
   filter: drop-shadow(0 16px 32px rgba(0, 0, 0, 0.15));
 }
 
+.position {
+  position: relative;
+  top: -5px;
+}
+
 .section-card {
   position: relative;
 
@@ -438,8 +443,7 @@ h3 {
 }
 
 .contact-info {
-  margin-top: 60px;
-  margin-bottom: 111px;
+  margin-top: 55px;
 
   font-size: 14px;
   text-align: center;
